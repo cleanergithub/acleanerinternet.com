@@ -1,0 +1,373 @@
+
+
+/* end normalize.css */
+
+body {
+  text-rendering: optimizeLegibility;
+  font-family: "HelveticaNeue-Light", HelveticaNeue, Helvetica, Arial, sans-serif !important;
+  background: #FFFFFF;
+  color: #111111;
+  font-size: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.content,
+#content {
+  width: 50%;
+  margin: 0 auto 0 auto;
+  font-size: 1.5em;
+}
+
+#main_col {
+  width: 50%;
+  padding: 0 1em 0 0;
+}
+
+
+/* anchors must be in this order */
+a,
+a:link,
+a:visited  {
+  /* color: #990000; */
+  color: rgb(153,0,0);
+  text-decoration:none;
+}
+
+a:hover,
+a:active {
+  color: red;
+  text-decoration:none;
+}
+
+footer a,
+footer a:link,
+footer a:visited  {
+  color: #990000;
+  text-decoration:none;
+}
+
+footer a:hover,
+footer a:active {
+  color: red;
+  text-decoration:none;
+}
+
+header {
+  text-align: center;
+  width: 70%;
+  margin: 2em auto 0 auto;
+}
+
+nav {
+  text-align: center;
+  color: #CCCCCC;
+  margin: 1em auto 1.5em auto;
+  font-size: 1.25em;
+}
+
+nav a,
+nav a:link,
+nav a:visited {
+  color: #999999;
+}
+
+nav a:hover,
+nav a:active {
+  color: #FF0000;
+}
+
+h1 {
+  color: #990000;
+  font-weight:normal;
+  font-size: 3.5em;
+}
+
+h1 a,
+h1 a:link,
+h1 a:visited {
+  color: #990000;
+  font-weight:normal;
+  letter-spacing: -1px;
+  text-decoration:none;
+}
+
+h1 a:hover,
+h1 a:active {
+  color: #FF0000;
+}
+
+
+h1 span {
+  /* color: #990000; */
+  color: rgb(153,0,0);
+  font-weight:normal;
+  font-size: .7em;
+}
+
+h2 {
+  color:#999999;
+  font-weight:normal;
+  font-size: 1.5em;
+  margin: 0 1em 0 0;
+  text-align: center;
+}
+
+#contact-content,
+#content p,
+td,
+li {
+  line-height:140%;
+  margin: 0 0 1em 0;
+}
+
+#contact-content,
+#content ul {
+  margin:0 0 0 .5em;
+}
+
+#contact-content,
+#content ul li {
+  padding: 0 0 1em 0;
+}
+#contact-content,
+#content td {
+  padding: 2px;
+}
+
+#content h2 {
+  line-height:130%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-weight:normal;
+  color: #000000;
+  font-size: 1.5em;
+}
+
+#content h3 {
+  line-height:130%;
+  margin-top: .5em;
+  margin-bottom: .5em;
+  font-weight:normal;
+  color:#555555;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+table td.label {
+  vertical-align: top;
+}
+
+#dont_send {
+  margin-top: 2em;
+  color:#AAAAAA;
+}
+
+footer {
+  width:70%;
+  color: #777777;
+  padding: 3em 0 3em 0;
+  text-align: center;
+  line-height:140%;
+  margin: 0 auto 0 auto;
+  font-size: 1.25em;
+}
+
+/* twitter styles */
+
+
+#twitter_div {
+  color:#777777;
+}
+
+#twitter_update_list li  {
+  padding:.1em 0 .1em .5em;
+  margin: .5em 0 0 0;
+}
+
+#twitter-link  {
+  margin:1em 0 0 0;
+  color:#777777;
+  display:block;
+  text-align:right;
+  border-bottom: 0;
+  font-size: 1em;
+}
+
+#twitter-link  {
+  margin:1em 0 0 0;
+  border-bottom: 0;
+  color: #990000;
+}
+
+#contact-content {
+  width: 70%;
+  padding: 2em 0 0 0;
+  margin: 0 auto 0 auto;
+}
+
+#install-list {
+  padding: 0;
+  margin: 0;
+}
+
+#install-list li {
+  padding: 0;
+  margin: 0;
+}
+
+
+#install-list li a:hover {
+  text-decoration: none;
+}
+
+#install-button {
+  width: 5em;
+  text-align: center;
+  -moz-border-radius: 15px !important;
+  -webkit-border-radius: 15px ;
+  border-radius: 15px ;
+  font-size: 2em !important ;
+  border: 1px #AAAAAA solid !important;
+  padding: .5em 1em .5em 1em !important;
+  outline: none !important;
+  background-color: #CCCCCC !important; /* fallback color */
+  background-image: -moz-linear-gradient(100% 100% 90deg, #CCCCCC, #FFFFFF) !important;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#CCCCCC)) !important;
+  color:#333333 !important;
+  margin: 1em auto 1em auto !important;
+  /* text-align: center !important; */
+  text-shadow: #EEEEEE 1px 1px !important;
+  display:block !important;
+  text-align: center;
+}
+
+#install-button:hover {
+  border: 1px #777777 solid !important;
+  color: #000000 !important;
+  text-decoration: none !important;
+  /* below from http://owltastic.com/2009/12/shadows-and-css3/ */
+  -webkit-box-shadow: 0 1px 10px rgba(0,0,0,.1);
+  -moz-box-shadow: 0 1px 10px rgba(0,0,0,.1);
+  box-shadow: 0 1px 10px rgba(0,0,0,.1);
+  cursor: pointer;
+}
+
+#install-button:active {
+  border: 1px #BBBBBB solid !important;
+  color: #111111 !important;
+  background-image: none !important;
+  background-color: #CCCCCC !important;
+  text-decoration: none !important;
+}
+
+#read-the-blog {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px ;
+  border-radius: 5px;
+  font-size: 1em !important ;
+  border: 1px #eeeeee solid;
+  padding: .5em 1em .5em 1em;
+  outline: none !important;
+  background-color: #EFEFEF; /* fallback color */
+  color:#333333;
+  margin: 1em auto 1em auto;
+  display:block !important;
+}
+
+#amazon-associates-bullets li {
+  margin: 0 0 0 1.5em;
+  padding: 0;
+  list-style: disc;
+}
+
+.thanks {
+  width: 50%;
+  margin: 0 auto 0 auto;
+  font-size: 50%;
+}
+
+#take-me-to-youtube {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#social-top {
+  font-size: 1em;
+  color: #CCCCCC;
+  margin: .5em auto 1em auto;
+}
+
+#social-top a {
+  color: #AAAAAA;
+}
+
+#cf {
+  position:relative;
+  margin:0 auto;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
+
+#apps-desc {
+  text-align: center;
+}
+
+
+#app-store-badge-link {
+  display:block;
+  margin: 1em auto 1em auto;
+  text-align: center;
+}
+
+#install-chrome-link {
+  padding: .25em;
+  background-color: #F2F5A9;
+  -webkit-box-shadow: 0 1px 10px rgba(0,0,0,.1);
+  -moz-box-shadow: 0 1px 10px rgba(0,0,0,.1);
+  box-shadow: 0 1px 10px rgba(0,0,0,.1);
+}
+
+#install-chrome-video {
+  display: none;
+
+}
+
+@media screen and (max-device-width:320px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  header {
+    font-size: 3em;
+  }
+
+  .content,
+  #content {
+    width: 90%;
+    margin: 0 auto 0 auto;
+    font-size: 3em;
+  }
+
+  footer {
+    font-size: 2em;
+  }
+}
